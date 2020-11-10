@@ -4,6 +4,8 @@
     "misogi.ruby-rubocop",
     "rebornix.ruby",
     "wingrunr21.vscode-ruby",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "kaiwood.endwise",
+    "aki77.rails-db-schema"
   ]
 }
