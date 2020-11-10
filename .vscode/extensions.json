@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "castwide.solargraph",
+    "misogi.ruby-rubocop",
+    "rebornix.ruby",
+    "wingrunr21.vscode-ruby",
+    "esbenp.prettier-vscode"
+  ]
+}
