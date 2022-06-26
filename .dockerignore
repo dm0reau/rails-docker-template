@@ -1,4 +1,0 @@
-.dockerignore
-tmp
-log/*.log
-node_modules

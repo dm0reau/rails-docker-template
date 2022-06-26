@@ -9,4 +9,4 @@ else
   bundle exec rails db:setup
 fi
 
-bundle exec rails s -b 0.0.0.0
+./bin/dev

@@ -1,6 +1,6 @@
-FROM ruby:2.7.2
+FROM ruby:3.1.2
 RUN apt-get update && apt-get install -y curl
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g yarn
 RUN rm -rf /var/lib/{apt,dpkg,cache,log}/

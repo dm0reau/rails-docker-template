@@ -1,23 +1,24 @@
-version: '3'
+version: "3"
 
 services:
   app:
-    build: 
+    tty: true
+    build:
       dockerfile: ./docker/Dockerfile
       context: .
-    volumes: 
+    volumes:
       - ./:/app
-    ports: 
+    ports:
       - 3000:3000
     tmpfs: ["/app/tmp", "/app/log"]
 
   db:
-    image: mariadb:10.5
-    environment: 
+    image: mariadb:10.8
+    environment:
       MYSQL_ROOT_PASSWORD: root
-    volumes: 
+    volumes:
       - db-data:/var/lib/mysql
-  
+
   adminer:
     image: adminer
     ports:
