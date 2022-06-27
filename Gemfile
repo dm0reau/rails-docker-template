@@ -55,6 +55,7 @@ group :development do
   gem "web-console"
 
   gem "rubocop"
+  gem "rubocop-rails_config"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
